@@ -1,0 +1,245 @@
+insert into cpc_master_product(prod_id,prod_part_no,prod_desc,platform,ac_efficiency,data_bk_plane_volt,pd_bk_plane_volt,psu_efficiency,lc_efficiency,prod_order)
+values(49,'Cisco ISR 1000','Cisco ISR 1000',1,0.9,48,48,0.9,1,3);
+
+
+insert into cpc_master_platform(platform_id,prod_id,platform_part_no,platform_desc,no_of_ports,output_power,max_output_power,heat_dissipation,input_current,image_name,rack_units,image_height,image_width,psu_efficiency,Exclude_pltfrm) values
+(231,49,'C1100TG-1N24P32A','Cisco ISR 1100TG-1N24P32A (2 WAN (GE/SFP) + 24 LAN,1NIM,4 GB DDR4)',2,60,60,80,60,'C1100TG-1N24P32A.png',1,250,300,0.8,38),
+(232,49,'C1100TG-1N32A','Cisco ISR 1100TG-1N32A (2 WAN (GE/SFP),1NIM,2 GB DDR4)',2,40,40,58,40,'C1100TG-1N32A.png',1,250,300,0.8,38),
+(233,49,'C1100TGX-1N24P32A','Cisco ISR C1100TGX-1N24P32A (2 WAN (GE/SFP) + 24 LAN,1NIM,8 GB DDR4)',2,62,62,82,62,'C1100TGX-1N24P32A.png',1,250,300,0.8,38),
+(234,49,'C1101-4P','Cisco ISR C1101-4P (1 WAN (GE) + 2 LAN)',4,13,13,17.28,13,'C1101-4P.png',1,250,300,0.8,38),
+(235,49,'C1101-4PLTEP','Cisco ISR C1101-4PLTEP (1 WAN (GE), 5G, LTE + 2 LAN)',4,16.5,16.5,21.75,16.5,'C1101-4PLTEP.png',1,250,300,0.8,38),
+(236,49,'C1101-4PLTEPW*','Cisco ISR C1101-4PLTEPW* (1 WAN (GE), 5G, LTE + 2 LAN)',4,21,21,28,21,'C1101-4PLTEPW_.png',1,250,300,0.8,38),
+(237,49,'C1109-2PLTE*','Cisco ISR C1109-2PLTE* (1 WAN (GE) + 2 LAN)',2,9.75,9.75,13,9.75,'C1109-2PLTE_.png',1,250,300,0.8,38),
+(238,49,'C1121-4P','Cisco ISR C1121-4P (2 WAN (GE) + 4 LAN)',4,10,10,17.1,10,'C1121-4P.png',1,250,300,0.8,38),
+(239,49,'C1121-4PLTEP','Cisco ISR C1121-4PLTEP (2 WAN (GE), 5G, LTE + 4 LAN)',4,12.8,12.8,21.3,12.8,'C1121-4PLTEP.png',1,250,300,0.8,38),
+(240,49,'C1121-8P','Cisco ISR C1121-8P (2 WAN (GE) + 8 LAN)',8,13.5,13.5,18.8,13.5,'C1121-8P.png',1,250,300,0.8,38),
+(241,49,'C1121-8PLTEP','Cisco ISR C1121-8PLTEP (2 WAN (GE), 5G, LTE + 8 LAN)',8,16.8,16.8,23,16.8,'C1121-8PLTEP.png',1,250,300,0.8,38),
+(242,49,'C1121-8PLTEPW*','Cisco ISR C1121-8PLTEPW* (2 WAN (GE), 5G, LTE + 802.11ac 8 LAN)',8,20,20,28.8,20,'C1121-8PLTEPW_.png',1,250,300,0.8,38),
+(243,49,'C1121X-8P','Cisco ISR C1121X-8P (2 WAN (GE) + 8 LAN)',8,13.6,13.6,18.9,13.6,'C1121X-8P.png',1,250,300,0.8,38),
+(244,49,'C1121X-8PLTEP','Cisco ISR C1121X-8PLTEP (2 WAN (GE), 5G, LTE + 8 LAN)',8,16.9,16.9,23.1,16.9,'C1121X-8PLTEP.png',1,250,300,0.8,38),
+(245,49,'C1121X-8PLTEPW*','Cisco ISR C1121X-8PLTEPW* (2 WAN (GE), 5G, LTE + 802.11ac 8 LAN)',8,20.1,20.1,28.9,20.1,'C1121X-8PLTEPW_.png',1,250,300,0.8,38),
+(246,49,'C1126-8PLTEP','Cisco ISR C1126-8PLTEP (2 WAN (GE), 5G, LTE + 8 LAN)',8,16.7,16.7,26.9,16.7,'C1126-8PLTEP.png',1,250,300,0.8,38),
+(247,49,'C1126X-8PLTEP','Cisco ISR C1126X-8PLTEP (2 WAN (GE), 5G, LTE + 802.11ac 8 LAN)',8,16.8,16.8,27,16.8,'C1126X-8PLTEP.png',1,250,300,0.8,38),
+(248,49,'C1127-8PLTEP','Cisco ISR C1127-8PLTEP (2 WAN (GE), 5G, LTE + 8 LAN)',8,16.7,16.7,26.9,16.7,'C1127-8PLTEP.png',1,250,300,0.8,38),
+(249,49,'C1127-8PMLTEP','Cisco ISR C1127-8PMLTEP (1 WAN (GE), DSL, 5G, LTE + 8 LAN)',8,16.7,16.7,26.9,16.7,'C1127-8PMLTEP.png',1,250,300,0.8,38),
+(250,49,'C1127X-8PLTEP','Cisco ISR C1127X-8PLTEP (1 WAN (GE), DSL, 5G, LTE + 8 LAN)',8,16.8,16.8,27,16.8,'C1127X-8PLTEP.png',1,250,300,0.8,38),
+(251,49,'C1127X-8PMLTEP','Cisco ISR C1127X-8MPLTEP (1 WAN (GE), DSL, 5G, LTE + 8 LAN)',8,16.8,16.8,27,16.8,'C1127X-8PMLTEP.png',1,250,300,0.8,38),
+(252,49,'C1128-8PLTEP','Cisco ISR C1128-8PLTEP (1 WAN (GE), DSL, 5G, LTE + 8 LAN)',8,21.7,21.7,27.2,21.7,'C1128-8PLTEP.png',1,250,300,0.8,38),
+(253,49,'C1131-8PLTEPW*','Cisco ISR C1131-8PLTEPW* (2 WAN (GE), 5G, LTE + 802.11ac 8 LAN)',8,24,24,30,24,'C1131-8PLTEPW_.png',1,250,300,0.8,38),
+(254,49,'C1131-8PW*','Cisco ISR C1131-8PW* (2 WAN (GE) + 802.11ac 8 LAN)',8,18,18,24,18,'C1131-8PW_.png',1,250,300,0.8,38),
+(255,49,'C1131X-8PLTEPW*','Cisco ISR C1131X-8PLTEPW* (2 WAN (GE), 5G, LTE + 802.11ac 8 LAN)',8,25,25,31,25,'C1131X-8PLTEPW_.png',1,250,300,0.8,38),
+(256,49,'C1131X-8PW*','Cisco ISR C1131X-8PW* (2 WAN (GE) + 802.11ac 8 LAN)',8,19,19,25,19,'C1131X-8PW_.png',1,250,300,0.8,38),
+(257,49,'C1161-8P','Cisco ISR C1161-8P (2 WAN (GE) + 8 LAN)',8,13,13,19,13,'C1161-8P.png',1,250,300,0.8,38),
+(258,49,'C1161-8PLTEP','Cisco ISR C1161-8PLTEP (2 WAN (GE), 5G, LTE + 8 LAN)',8,15.3,15.3,23.2,15.3,'C1161-8PLTEP.png',1,250,300,0.8,38),
+(259,49,'C1161X-8P','Cisco ISR C1161X-8P (2 WAN (GE) + 8 LAN)',8,13.1,13.1,19.1,13.1,'C1161X-8P.png',1,250,300,0.8,38),
+(260,49,'C1161X-8PLTEP','Cisco ISR C1161X-8PLTEP (2 WAN (GE), 5G, LTE + 8 LAN)',8,15.4,15.4,23.3,15.4,'C1161X-8PLTEP.png',1,250,300,0.8,38)
+;
+
+
+insert ALL 
+into cpc_master_pim(pim_id,platform_id,sku,POWER_CONSUMPTION,TOTAL_DISSIPATION,MAX_POWER_CONSUMPTION) values  (367,260,'P-LTE-VZ',6,18.84,6)
+into cpc_master_pim(pim_id,platform_id,sku,POWER_CONSUMPTION,TOTAL_DISSIPATION,MAX_POWER_CONSUMPTION) values  (368,260,'P-LTE-NA',6,18.84,6)
+into cpc_master_pim(pim_id,platform_id,sku,POWER_CONSUMPTION,TOTAL_DISSIPATION,MAX_POWER_CONSUMPTION) values  (369,260,'P-LTE-US',6,18.84,6)
+into cpc_master_pim(pim_id,platform_id,sku,POWER_CONSUMPTION,TOTAL_DISSIPATION,MAX_POWER_CONSUMPTION) values  (370,260,'P-LTE-JN',6,18.84,6)
+into cpc_master_pim(pim_id,platform_id,sku,POWER_CONSUMPTION,TOTAL_DISSIPATION,MAX_POWER_CONSUMPTION) values  (371,260,'P-LTE-GB',6,18.84,6)
+into cpc_master_pim(pim_id,platform_id,sku,POWER_CONSUMPTION,TOTAL_DISSIPATION,MAX_POWER_CONSUMPTION) values  (372,260,'P-LTE-IN',6,18.84,6)
+into cpc_master_pim(pim_id,platform_id,sku,POWER_CONSUMPTION,TOTAL_DISSIPATION,MAX_POWER_CONSUMPTION) values  (373,260,'P-LTE-AU',6,18.84,6)
+into cpc_master_pim(pim_id,platform_id,sku,POWER_CONSUMPTION,TOTAL_DISSIPATION,MAX_POWER_CONSUMPTION) values  (374,260,'P-LTEA-EA',6,18.84,6)
+into cpc_master_pim(pim_id,platform_id,sku,POWER_CONSUMPTION,TOTAL_DISSIPATION,MAX_POWER_CONSUMPTION) values  (375,260,'P-LTEA-LA',6,18.84,6)
+into cpc_master_pim(pim_id,platform_id,sku,POWER_CONSUMPTION,TOTAL_DISSIPATION,MAX_POWER_CONSUMPTION) values  (376,260,'P-LTEAA-EA',6,18.84,6)
+into cpc_master_pim(pim_id,platform_id,sku,POWER_CONSUMPTION,TOTAL_DISSIPATION,MAX_POWER_CONSUMPTION) values  (377,260,'P-LTEAP18-GL',6,18.84,6)
+SELECT * FROM dual;
+
+insert into cpc_product_explict_properties (id,prod_id,properties_name) values (10,49,'Power Supply');
+
+insert all 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (150,231,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (151,232,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (152,233,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (153,234,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (154,235,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (155,236,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (156,237,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (157,238,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (158,239,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (159,240,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (160,241,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (161,242,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (162,243,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (163,244,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (164,245,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (165,246,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (166,247,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (167,248,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (168,249,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (169,250,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (170,251,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (171,252,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (172,253,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (173,254,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (174,255,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (175,256,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (176,257,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (177,258,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (178,259,'Power Supply',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (179,260,'Power Supply',2) 
+SELECT * FROM dual;
+
+insert all 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (180,231,'NIM Module',2)
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (181,232,'NIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (182,233,'NIM Module',2)
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (183,231,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (184,232,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (185,233,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (186,234,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (187,235,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (188,236,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (189,237,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (190,238,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (191,239,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (192,240,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (193,241,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (194,242,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (195,243,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (196,244,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (197,245,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (198,246,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (199,247,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (200,248,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (201,249,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (202,250,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (203,251,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (204,252,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (205,253,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (206,254,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (207,255,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (208,256,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (209,257,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (210,258,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (211,259,'PIM Module',2) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (213,260,'PIM Module',2) 
+SELECT * FROM dual;
+
+
+insert all 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (214,231,'NIM',3)
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (215,232,'NIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (216,233,'NIM',3)
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (217,231,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (218,232,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (219,233,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (220,234,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (221,235,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (222,236,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (223,237,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (224,238,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (225,239,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (226,240,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (227,241,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (228,242,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (229,243,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (230,244,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (231,245,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (232,246,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (233,247,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (234,248,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (235,249,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (236,250,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (237,251,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (238,252,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (239,253,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (240,254,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (241,255,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (242,256,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (243,257,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (244,258,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (245,259,'PIM',3) 
+into cpc_platform_explict_properties(id,platform_id,properties_name,page_level) values (246,260,'PIM',3) 
+SELECT * FROM dual;
+
+
+insert all 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (231,1,0,1,0,0)
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (232,1,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (233,1,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (234,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (235,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (236,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (237,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (238,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (239,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (240,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (241,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (242,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (243,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (244,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (245,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (246,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (247,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (248,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (249,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (250,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (251,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (252,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (253,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (254,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (255,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (256,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (257,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (258,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (259,0,0,1,0,0) 
+into cpc_config_platform_modules(platform_id,nim_count,smx_count,pim_count,epa_count,spa_count) values (260,0,0,1,0,0) 
+SELECT * FROM dual;
+
+insert ALL 
+into cpc_master_nims(nim_id,platform_id,nim,power_consumption,total_dissipation) values  (629,232,'NIM-ES2-4',20.5,23)
+into cpc_master_nims(nim_id,platform_id,nim,power_consumption,total_dissipation,max_power_consumption) values  (630,232,'NIM-ES2-8',4.875,28,6.5)
+into cpc_master_nims(nim_id,platform_id,nim,power_consumption,total_dissipation,max_power_consumption) values  (631,232,'NIM-LTEA-EA',11,11,16)
+into cpc_master_nims(nim_id,platform_id,nim,power_consumption,total_dissipation,max_power_consumption) values  (632,232,'NIM-LTEA-LA',11,11,16)
+into cpc_master_nims(nim_id,platform_id,nim,power_consumption,total_dissipation,max_power_consumption) values  (634,232,'NIM-16A',4,5.6,5)
+into cpc_master_nims(nim_id,platform_id,nim,power_consumption,total_dissipation,max_power_consumption) values  (635,232,'NIM-24A',4.5,6,6)
+into cpc_master_nims(nim_id,platform_id,nim,power_consumption,total_dissipation,max_power_consumption) values  (636,232,'NIM-1T',4,6.1,7)
+into cpc_master_nims(nim_id,platform_id,nim,power_consumption,total_dissipation,max_power_consumption) values  (637,232,'NIM-2T',4,7,7)
+into cpc_master_nims(nim_id,platform_id,nim,power_consumption,total_dissipation,max_power_consumption) values  (638,232,'NIM-4T',5,8.9,8)
+SELECT * FROM dual;
+
+insert into cpc_switch_router(prod_id,prod_desc,prod_category) values(49,'Cisco ISR 1000','Router');
+
+
+insert All
+into cpc_config_platform_psu(platform_id,psu_id) values(231,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(232,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(233,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(234,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(235,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(236,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(237,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(238,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(239,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(240,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(241,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(242,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(243,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(244,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(245,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(246,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(247,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(248,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(249,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(250,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(251,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(252,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(253,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(254,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(255,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(256,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(257,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(258,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(259,1721)
+into cpc_config_platform_psu(platform_id,psu_id) values(260,1721)
+SELECT * FROM dual;
+
+
+CPCNCS5500Mar@2024
+CPCNCS5500Mar@2024<a href="FXN.cpc" onclick="s_objectID=&quot;http://localhost:8080/cpc/FXN.cpc_1&quot;;return this.s_oc?this.s_oc(e):true" name="null">SELECT PLATFORM</a>
